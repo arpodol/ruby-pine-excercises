@@ -13,7 +13,7 @@ def shuffle_some_array
   recursive_shuffle sorted_array, []
 end
 
-def recursive_shuffle sorted_array, shuffled_array
+def recursive_shuffle(sorted_array, shuffled_array)
   if sorted_array == []
     puts shuffled_array
   else
